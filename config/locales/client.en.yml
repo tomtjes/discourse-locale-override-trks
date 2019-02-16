@@ -180,7 +180,7 @@ en:
 #       us_gov_west_1: "AWS GovCloud (US)"
 #       us_west_1: "US West (N. California)"
 #       us_west_2: "US West (Oregon)"
-    edit: "edit the title and category of this topic"
+    edit: "edit the title and track of this topic"
 #   not_implemented: "That feature hasn't been implemented yet, sorry!"
 #   no_value: "No"
 #   yes_value: "Yes"
@@ -519,14 +519,14 @@ en:
 #     "14": "Pending"
 #     "15": "Drafts"
     categories:
-      all: "all categories"
+      all: "all tracks"
       all_subcategories: "all"
       no_subcategory: "none"
-      category: "Category"
-      category_list: "Display category list"
+      category: "Track"
+      category_list: "Display track list"
       reorder:
-        title: "Reorder Categories"
-        title_long: "Reorganize the category list"
+        title: "Reorder Tracks"
+        title_long: "Reorganize the track list"
 #       save: "Save Order"
 #       apply_all: "Apply"
 #       position: "Position"
@@ -535,7 +535,7 @@ en:
 #     latest: "Latest"
 #     latest_by: "latest by"
 #     toggle_ordering: "toggle ordering control"
-      subcategories: "Subcategories"
+      subcategories: "Subtracks"
 #     topic_sentence:
 #       one: "1 topic"
 #       other: "%{count} topics"
@@ -545,7 +545,7 @@ en:
 #     topic_stat_sentence_month:
 #       one: "%{count} new topic in the past month."
 #       other: "%{count} new topics in the past month."
-      n_more: "Categories (%{count} more) ..."
+      n_more: "Tracks (%{count} more) ..."
 #   ip_lookup:
 #     title: IP Address Lookup
 #     hostname: Hostname
@@ -642,16 +642,16 @@ en:
 #     muted_tags: "Muted"
 #     muted_tags_instructions: "You will not be notified of anything about new topics with these tags, and they will not appear in latest."
       watched_categories: "Watched"
-      watched_categories_instructions: "You will automatically watch all topics in these categories. You will be notified of all new posts and topics, and a count of new posts will also appear next to the topic."
+      watched_categories_instructions: "You will automatically watch all topics in these tracks. You will be notified of all new posts and topics, and a count of new posts will also appear next to the topic."
       tracked_categories: "Tracked"
-      tracked_categories_instructions: "You will automatically track all topics in these categories. A count of new posts will appear next to the topic."
+      tracked_categories_instructions: "You will automatically track all topics in these tracks. A count of new posts will appear next to the topic."
       watched_first_post_categories: "Watching First Post"
-      watched_first_post_categories_instructions: "You will be notified of the first post in each new topic in these categories."
+      watched_first_post_categories_instructions: "You will be notified of the first post in each new topic in these tracks."
 #     watched_first_post_tags: "Watching First Post"
 #     watched_first_post_tags_instructions: "You will be notified of the first post in each new topic with these tags."
       muted_categories: "Muted"
-      muted_categories_instructions: "You will not be notified of anything about new topics in these categories, and they will not appear on the categories or latest pages."
-      no_category_access: "As a moderator you have limited category access, save is disabled."
+      muted_categories_instructions: "You will not be notified of anything about new topics in these categories, and they will not appear on the tracks or latest pages."
+      no_category_access: "As a moderator you have limited track access, save is disabled."
 #     delete_account: "Delete My Account"
 #     delete_account_confirm: "Are you sure you want to permanently delete your account? This action cannot be undone!"
 #     deleted_yourself: "Your account has been deleted successfully."
@@ -696,7 +696,7 @@ en:
 #       profile: "Profile"
 #       emails: "Emails"
 #       notifications: "Notifications"
-        categories: "Categories"
+        categories: "Tracks"
 #       tags: "Tags"
 #       interface: "Interface"
 #       apps: "Apps"
@@ -863,7 +863,7 @@ en:
 #     email_private_messages: "Send me an email when someone messages me"
 #     email_always: "Send me email notifications even when I am active on the site"
 #     other_settings: "Other"
-      categories_settings: "Categories"
+      categories_settings: "Tracks"
 #     new_topic_duration:
 #       label: "Consider topics new when"
 #       not_viewed: "I haven't viewed them yet"
@@ -978,7 +978,7 @@ en:
 #       most_liked_users: "Most Liked"
 #       most_replied_to_users: "Most Replied To"
 #       no_likes: "No likes yet."
-        top_categories: "Top Categories"
+        top_categories: "Top Tracks"
 #       topics: "Topics"
 #       replies: "Replies"
 #     ip_address:
@@ -1201,11 +1201,11 @@ en:
 #     google_classic: "Google Classic"
 #     facebook_messenger: "Facebook Messenger"
     category_page_style:
-      categories_only: "Categories Only"
-      categories_with_featured_topics: "Categories with Featured Topics"
-      categories_and_latest_topics: "Categories and Latest Topics"
-      categories_and_top_topics: "Categories and Top Topics"
-      categories_boxes: "Boxes with Subcategories"
+      categories_only: "Tracks Only"
+      categories_with_featured_topics: "Tracks with Featured Topics"
+      categories_and_latest_topics: "Tracks and Latest Topics"
+      categories_and_top_topics: "Tracks and Top Topics"
+      categories_boxes: "Boxes with Subtracks"
       categories_boxes_with_topics: "Boxes with Featured Topics"
 #   shortcut_modifier_key:
 #     shift: "Shift"
@@ -1244,8 +1244,8 @@ en:
 #     dark_tone: Dark skin tone
     shared_drafts:
 #     title: "Shared Drafts"
-      notice: "This topic is only visible to those who can see the <b>{{category}}</b> category."
-      destination_category: "Destination Category"
+      notice: "This topic is only visible to those who can see the <b>{{category}}</b> track."
+      destination_category: "Destination Track"
 #     publish: "Publish Shared Draft"
 #     confirm_publish: "Are you sure you want to publish this draft?"
 #     publishing: "Publishing Topic..."
@@ -1271,7 +1271,7 @@ en:
 #       one: "By mentioning {{group}}, you are about to notify <a href='{{group_link}}'>1 person</a> – are you sure?"
 #       other: "By mentioning {{group}}, you are about to notify <a href='{{group_link}}'>{{count}} people</a> – are you sure?"
       cannot_see_mention:
-        category: "You mentioned {{username}} but they won't be notified because they do not have access to this category. You will need to add them to a group that has access to this category."
+        category: "You mentioned {{username}} but they won't be notified because they do not have access to this track. You will need to add them to a group that has access to this track."
 #       private: "You mentioned {{username}} but they won't be notified because they are unable to see this personal message. You will need to invite them to this PM."
 #     duplicate_link: "It looks like your link to <b>{{domain}}</b> was already posted in the topic by <b>@{{username}}</b> in <a href='{{post_url}}'>a reply on {{ago}}</a> – are you sure you want to post it again?"
       error:
@@ -1281,7 +1281,7 @@ en:
 #       post_missing: "Post can't be empty"
 #       post_length: "Post must be at least {{min}} characters"
 #       try_like: "Have you tried the {{heart}} button?"
-        category_missing: "You must choose a category"
+        category_missing: "You must choose a track"
 #       tags_missing: "You must choose at least {{count}} tags"
 #     save_edit: "Save Edit"
 #     overwrite_edit: "Overwrite Edit"
@@ -1304,7 +1304,7 @@ en:
 #     remove_featured_link: "Remove link from topic."
 #     reply_placeholder: "Type here. Use Markdown, BBCode, or HTML to format. Drag or paste images."
 #     reply_placeholder_no_images: "Type here. Use Markdown, BBCode, or HTML to format."
-      reply_placeholder_choose_category: "You must select a category before typing here."
+      reply_placeholder_choose_category: "You must select a track before typing here."
 #     view_new_post: "View your new post."
 #     saving: "Saving"
 #     saved: "Saved!"
@@ -1453,7 +1453,7 @@ en:
 #     result_count:
 #       one: "<span>1 result for</span><span class='term'>{{term}}</span>"
 #       other: "<span>{{count}}{{plus}} results for</span><span class='term'>{{term}}</span>"
-      title: "search topics, posts, users, or categories"
+      title: "search topics, posts, users, or tracks"
 #     full_page_title: "search topics or posts"
 #     no_results: "No results found."
 #     no_more_results: "No more results found."
@@ -1469,7 +1469,7 @@ en:
 #     search_google_title: "Search this site"
       context:
 #       user: "Search posts by @{{username}}"
-        category: "Search the {{category}} category"
+        category: "Search the {{category}} track"
 #       topic: "Search this topic"
 #       private_messages: "Search messages"
       advanced:
@@ -1515,7 +1515,7 @@ en:
 #           label: Posted
 #           before: before
 #           after: after
-    hamburger_menu: "go to another topic list or category"
+    hamburger_menu: "go to another topic list or track"
 #   new_item: "new"
 #   go_back: "go back"
 #   not_logged_in_user: "user page with summary of current activity and preferences"
@@ -1537,11 +1537,11 @@ en:
 #       dismiss_new: "Dismiss New"
 #       toggle: "toggle bulk selection of topics"
 #       actions: "Bulk Actions"
-        change_category: "Set Category"
+        change_category: "Set Track"
 #       close_topics: "Close Topics"
 #       archive_topics: "Archive Topics"
 #       notification_level: "Notifications"
-        choose_new_category: "Choose the new category for the topics:"
+        choose_new_category: "Choose the new track for the topics:"
 #       selected:
 #         one: "You have selected <b>1</b> topic."
 #         other: "You have selected <b>{{count}}</b> topics."
@@ -1550,7 +1550,7 @@ en:
 #       choose_new_tags: "Choose new tags for these topics:"
 #       choose_append_tags: "Choose new tags to append for these topics:"
 #       changed_tags: "The tags of those topics were changed."
-      none:
+#     none:
 #       unread: "You have no unread topics."
 #       new: "You have no new topics."
 #       read: "You haven't read any topics yet."
@@ -1558,20 +1558,20 @@ en:
 #       latest: "There are no latest topics. That's sad."
 #       hot: "There are no hot topics."
 #       bookmarks: "You have no bookmarked topics yet."
-        category: "There are no {{category}} topics."
+#       category: "There are no {{category}} topics."
 #       top: "There are no top topics."
 #       search: "There are no search results."
 #       educate:
 #         new: '<p>Your new topics appear here.</p><p>By default, topics are considered new and will show a <span class="badge new-topic badge-notification" style="vertical-align:middle;line-height:inherit;">new</span> indicator if they were created in the last 2 days.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
 #         unread: '<p>Your unread topics appear here.</p><p>By default, topics are considered unread and will show unread counts <span class="badge new-posts badge-notification">1</span> if you:</p><ul><li>Created the topic</li><li>Replied to the topic</li><li>Read the topic for more than 4 minutes</li></ul><p>Or if you have explicitly set the topic to Tracked or Watched via the notification control at the bottom of each topic.</p><p>Visit your <a href="%{userPrefsUrl}">preferences</a> to change this.</p>'
-      bottom:
+#     bottom:
 #       latest: "There are no more latest topics."
 #       hot: "There are no more hot topics."
 #       posted: "There are no more posted topics."
 #       read: "There are no more read topics."
 #       new: "There are no more new topics."
 #       unread: "There are no more unread topics."
-        category: "There are no more {{category}} topics."
+#       category: "There are no more {{category}} topics."
 #       top: "There are no more top topics."
 #       bookmarks: "There are no more bookmarked topics."
 #       search: "There are no more search results."
@@ -1645,7 +1645,7 @@ en:
 #       one { {BOTH, select, true{and } false {is } other{}} <a href='{basePath}/new'>1 new</a> topic}
 #       other { {BOTH, select, true{and } false {are } other{}} <a href='{basePath}/new'>#new</a> topics}
 #       } remaining, or {CATEGORY, select, true {browse other topics in {catLink}} false {{latestLink}} other {}}"
-      browse_all_categories: Browse all categories
+      browse_all_categories: Browse all tracks
 #     view_latest_topics: view latest topics
 #     suggest_create_topic: Why not create a topic?
 #     jump_reply_up: jump to earlier reply
@@ -1729,18 +1729,18 @@ en:
         reasons:
 #         mailing_list_mode: "You have mailing list mode enabled, so you will be notified of replies to this topic via email."
 #         "3_10": "You will receive notifications because you are watching a tag on this topic."
-          "3_6": "You will receive notifications because you are watching this category."
+          "3_6": "You will receive notifications because you are watching this track."
 #         "3_5": "You will receive notifications because you started watching this topic automatically."
 #         "3_2": "You will receive notifications because you are watching this topic."
 #         "3_1": "You will receive notifications because you created this topic."
 #         "3": "You will receive notifications because you are watching this topic."
-          "2_8": "You will see a count of new replies because you are tracking this category."
+          "2_8": "You will see a count of new replies because you are tracking this track."
 #         "2_4": "You will see a count of new replies because you posted a reply to this topic."
 #         "2_2": "You will see a count of new replies because you are tracking this topic."
 #         "2": 'You will see a count of new replies because you <a href="{{basePath}}/u/{{username}}/preferences">read this topic</a>.'
 #         "1_2": "You will be notified if someone mentions your @name or replies to you."
 #         "1": "You will be notified if someone mentions your @name or replies to you."
-          "0_7": "You are ignoring all notifications in this category."
+          "0_7": "You are ignoring all notifications in this track."
 #         "0_2": "You are ignoring all notifications on this topic."
 #         "0": "You are ignoring all notifications on this topic."
 #       watching_pm:
@@ -1749,9 +1749,9 @@ en:
 #       watching:
 #         title: "Watching"
 #         description: "You will be notified of every new reply in this topic, and a count of new replies will be shown."
-#       tracking_pm:
+       tracking_pm:
 #         title: "Tracking"
-#         description: "A count of new replies will be shown for this message. You will be notified if someone mentions your @name or replies to you."
+         description: "You will be notified if someone mentions your @name or replies to you. A count of new replies will be shown for this message."
         tracking:
 #         title: "Tracking"
           description: "You will be notified if someone mentions your @name or replies to you. A count of new replies will be shown for this topic."
@@ -1808,10 +1808,10 @@ en:
 #       success_message: "You successfully flagged this topic."
       feature_topic:
 #       title: "Feature this topic"
-        pin: "Make this topic appear at the top of the {{categoryLink}} category until"
-        confirm_pin: "You already have {{count}} pinned topics. Too many pinned topics may be a burden for new and anonymous users. Are you sure you want to pin another topic in this category?"
-        unpin: "Remove this topic from the top of the {{categoryLink}} category."
-        unpin_until: "Remove this topic from the top of the {{categoryLink}} category or wait until <strong>%{until}</strong>."
+        pin: "Make this topic appear at the top of the {{categoryLink}} track until"
+        confirm_pin: "You already have {{count}} pinned topics. Too many pinned topics may be a burden for new and anonymous users. Are you sure you want to pin another topic in this track?"
+        unpin: "Remove this topic from the top of the {{categoryLink}} track."
+        unpin_until: "Remove this topic from the top of the {{categoryLink}} track or wait until <strong>%{until}</strong>."
 #       pin_note: "Users can unpin the topic individually for themselves."
 #       pin_validation: "A date is required to pin this topic."
 #       not_pinned: "There are no topics pinned in {{categoryLink}}."
@@ -2157,91 +2157,91 @@ en:
 #           button: "HTML"
     category:
 #     can: "can&hellip; "
-      none: "(no category)"
-      all: "All categories"
-      choose: "category&hellip;"
+      none: "(no track)"
+      all: "All tracks"
+      choose: "track&hellip;"
 #     edit: "edit"
 #     edit_long: "Edit"
-      view: "View Topics in Category"
+      view: "View Topics in Track"
 #     general: "General"
 #     settings: "Settings"
 #     topic_template: "Topic Template"
 #     tags: "Tags"
-      tags_allowed_tags: "Only allow these tags to be used in this category:"
-      tags_allowed_tag_groups: "Only allow tags from these groups to be used in this category:"
+      tags_allowed_tags: "Only allow these tags to be used in this track:"
+      tags_allowed_tag_groups: "Only allow tags from these groups to be used in this track:"
 #     tags_placeholder: "(Optional) list of allowed tags"
 #     tag_groups_placeholder: "(Optional) list of allowed tag groups"
-      topic_featured_link_allowed: "Allow featured links in this category"
-      delete: "Delete Category"
-      create: "New Category"
-      create_long: "Create a new category"
-      save: "Save Category"
-      slug: "Category Slug"
+      topic_featured_link_allowed: "Allow featured links in this track"
+      delete: "Delete Track"
+      create: "New Track"
+      create_long: "Create a new track"
+      save: "Save Track"
+      slug: "Track Slug"
 #     slug_placeholder: "(Optional) dashed-words for url"
-      creation_error: There has been an error during the creation of the category.
-      save_error: There was an error saving the category.
-      name: "Category Name"
+      creation_error: There has been an error during the creation of the track.
+      save_error: There was an error saving the track.
+      name: "Track Name"
 #     description: "Description"
-      topic: "category topic"
-      logo: "Category Logo Image"
-      background_image: "Category Background Image"
+      topic: "track topic"
+      logo: "Track Logo Image"
+      background_image: "Track Background Image"
 #     badge_colors: "Badge colors"
 #     background_color: "Background color"
 #     foreground_color: "Foreground color"
 #     name_placeholder: "One or two words maximum"
 #     color_placeholder: "Any web color"
-      delete_confirm: "Are you sure you want to delete this category?"
-      delete_error: "There was an error deleting the category."
-      list: "List Categories"
-      no_description: "Please add a description for this category."
+      delete_confirm: "Are you sure you want to delete this track?"
+      delete_error: "There was an error deleting the track."
+      list: "List Tracks"
+      no_description: "Please add a description for this track."
       change_in_category_topic: "Edit Description"
-      already_used: "This color has been used by another category"
+      already_used: "This color has been used by another track"
 #     security: "Security"
-      special_warning: "Warning: This category is a pre-seeded category and the security settings cannot be edited. If you do not wish to use this category, delete it instead of repurposing it."
+      special_warning: "Warning: This track is a pre-seeded track and the security settings cannot be edited. If you do not wish to use this track, delete it instead of repurposing it."
 #     images: "Images"
 #     email_in: "Custom incoming email address:"
 #     email_in_allow_strangers: "Accept emails from anonymous users with no accounts"
 #     email_in_disabled: "Posting new topics via email is disabled in the Site Settings. To enable posting new topics via email, "
 #     email_in_disabled_click: 'enable the "email in" setting.'
-      mailinglist_mirror: "Category mirrors a mailing list"
-      suppress_from_latest: "Suppress category from latest topics."
-      show_subcategory_list: "Show subcategory list above topics in this category."
-      num_featured_topics: "Number of topics shown on the categories page:"
-      subcategory_num_featured_topics: "Number of featured topics on parent category's page:"
+      mailinglist_mirror: "Track mirrors a mailing list"
+      suppress_from_latest: "Suppress track from latest topics."
+      show_subcategory_list: "Show subtrack list above topics in this track."
+      num_featured_topics: "Number of topics shown on the tracks page:"
+      subcategory_num_featured_topics: "Number of featured topics on parent track's page:"
 #     all_topics_wiki: "Make new topics wikis by default"
-      subcategory_list_style: "Subcategory List Style:"
+      subcategory_list_style: "Subtrack List Style:"
 #     sort_order: "Topic List Sort By:"
 #     default_view: "Default Topic List:"
 #     default_top_period: "Default Top Period:"
-      allow_badges_label: "Allow badges to be awarded in this category"
+      allow_badges_label: "Allow badges to be awarded in this track"
 #     edit_permissions: "Edit Permissions"
 #     require_topic_approval: "Require moderator approval of all new topics"
 #     require_reply_approval: "Require moderator approval of all new replies"
 #     this_year: "this year"
 #     position: "Position:"
 #     default_position: "Default Position"
-      position_disabled: "Categories will be displayed in order of activity. To control the order of categories in lists, "
-      position_disabled_click: 'enable the "fixed category positions" setting.'
+      position_disabled: "Tracks will be displayed in order of activity. To control the order of tracks in lists, "
+      position_disabled_click: 'enable the "fixed track positions" setting.'
 #     minimum_required_tags: "Minimum number of tags required in a topic:"
-      parent: "Parent Category"
+      parent: "Parent Track"
 #     num_auto_bump_daily: "Number of open topics to automatically bump daily:"
 #     navigate_to_first_post_after_read: "Navigate to first post after topics are read"
       notifications:
         watching:
 #         title: "Watching"
-          description: "You will automatically watch all topics in these categories. You will be notified of every new post in every topic, and a count of new replies will be shown."
+          description: "You will automatically watch all topics in this track. You will be notified of every new post in every topic, and a count of new replies will be shown."
         watching_first_post:
 #         title: "Watching First Post"
-          description: "You will be notified of new topics in this category but not replies to the topics."
+          description: "You will be notified of new topics in this track but not replies to the topics."
         tracking:
 #         title: "Tracking"
-          description: "You will automatically track all topics in these categories. You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
+          description: "You will automatically track all topics in this track. You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
 #       regular:
 #         title: "Normal"
 #         description: "You will be notified if someone mentions your @name or replies to you."
         muted:
 #         title: "Muted"
-          description: "You will never be notified of anything about new topics in these categories, and they will not appear in latest."
+          description: "You will never be notified of anything about new topics in this track, and they will not appear in latest."
       sort_options:
 #       default: "default"
 #       likes: "Likes"
@@ -2250,7 +2250,7 @@ en:
 #       posts: "Posts"
 #       activity: "Activity"
 #       posters: "Posters"
-        category: "Category"
+        category: "Track"
 #       created: "Created"
 #     sort_ascending: "Ascending"
 #     sort_descending: "Descending"
@@ -2324,10 +2324,10 @@ en:
 #       help: "This topic is unpinned for you; it will display in regular order"
       pinned_globally:
 #       title: "Pinned Globally"
-        help: "This topic is pinned globally; it will display at the top of latest and its category"
+        help: "This topic is pinned globally; it will display at the top of latest and its track"
       pinned:
 #       title: "Pinned"
-        help: "This topic is pinned for you; it will display at the top of its category"
+        help: "This topic is pinned for you; it will display at the top of its track"
 #     unlisted:
 #       help: "This topic is unlisted; it will not be displayed in topic lists, and can only be accessed via a direct link"
 #   posts: "Posts"
@@ -2358,16 +2358,16 @@ en:
 #   users_lowercase:
 #     one: "user"
 #     other: "users"
-    category_title: "Category"
+    category_title: "Track"
 #   history: "History"
 #   changed_by: "by {{author}}"
 #   raw_email:
 #     title: "Incoming Email"
 #     not_available: "Not available!"
-    categories_list: "Categories List"
+    categories_list: "Tracks List"
     filters:
 #     with_topics: "%{filter} topics"
-      with_category: "%{filter} %{category} topics"
+#     with_category: "%{filter} %{category} topics"
 #     latest:
 #       title: "Latest"
 #       title_with_count:
@@ -2384,9 +2384,9 @@ en:
 #       title: "Search"
 #       help: "search all topics"
       categories:
-        title: "Categories"
-        title_in: "Category - {{categoryName}}"
-        help: "all topics grouped by category"
+        title: "Tracks"
+        title_in: "Track - {{categoryName}}"
+        help: "all topics grouped by track"
 #     unread:
 #       title: "Unread"
 #       title_with_count:
@@ -2417,7 +2417,7 @@ en:
 #       title_with_count:
 #         one: "{{categoryName}} (1)"
 #         other: "{{categoryName}} ({{count}})"
-        help: "latest topics in the {{categoryName}} category"
+        help: "latest topics in the {{categoryName}} track"
 #     top:
 #       title: "Top"
 #       help: "the most active topics in the last year, month, week or day"
@@ -2455,7 +2455,7 @@ en:
 #       latest: "<b>g</b>, <b>l</b> Latest"
 #       new: "<b>g</b>, <b>n</b> New"
 #       unread: "<b>g</b>, <b>u</b> Unread"
-        categories: "<b>g</b>, <b>c</b> Categories"
+        categories: "<b>g</b>, <b>c</b> Tracks"
 #       top: "<b>g</b>, <b>t</b> Top"
 #       bookmarks: "<b>g</b>, <b>b</b> Bookmarks"
 #       profile: "<b>g</b>, <b>p</b> Profile"
@@ -2918,8 +2918,8 @@ en:
 #       verify_certificate: "Check TLS certificate of payload url"
 #       active: "Active"
 #       active_notice: "We will deliver event details when it happens."
-        categories_filter_instructions: "Relevant webhooks will only be triggered if the event is related with specified categories. Leave blank to trigger webhooks for all categories."
-        categories_filter: "Triggered Categories"
+        categories_filter_instructions: "Relevant webhooks will only be triggered if the event is related with specified categories. Leave blank to trigger webhooks for all tracks."
+        categories_filter: "Triggered Tracks"
 #       tags_filter_instructions: "Relevant webhooks will only be triggered if the event is related with specified tags. Leave blank to trigger webhooks for all tags."
 #       tags_filter: "Triggered Tags"
 #       groups_filter_instructions: "Relevant webhooks will only be triggered if the event is related with specified groups. Leave blank to trigger webhooks for all groups."
@@ -2938,8 +2938,8 @@ en:
 #         name: "Group Event"
 #         details: "When a group is created, updated or destroyed."
         category_event:
-          name: "Category Event"
-          details: "When a category is created, updated or destroyed."
+          name: "Track Event"
+          details: "When a track is created, updated or destroyed."
 #       tag_event:
 #         name: "Tag Event"
 #         details: "When a tag is created, updated or destroyed."
@@ -3339,7 +3339,7 @@ en:
 #       ip_address: "IP"
 #       topic_id: "Topic ID"
 #       post_id: "Post ID"
-        category_id: "Category ID"
+        category_id: "Track ID"
 #       delete: "Delete"
 #       edit: "Edit"
 #       save: "Save"
@@ -3385,9 +3385,9 @@ en:
 #           impersonate: "impersonate"
 #           anonymize_user: "anonymize user"
 #           roll_up: "roll up IP blocks"
-            change_category_settings: "change category settings"
-            delete_category: "delete category"
-            create_category: "create category"
+            change_category_settings: "change track settings"
+            delete_category: "delete track"
+            create_category: "create track"
 #           silence_user: "silence user"
 #           unsilence_user: "unsilence user"
 #           removed_silence_user: "silence user (removed)"
@@ -3769,7 +3769,7 @@ en:
       site_settings:
 #       title: "Settings"
 #       no_results: "No results found."
-        more_than_30_results: "There are more than 30 results. Please refine your search or select a category."
+        more_than_30_results: "There are more than 30 results. Please refine your search or select a track."
 #       clear_filter: "Clear"
 #       add_url: "add URL"
 #       add_host: "add host"
@@ -3901,7 +3901,7 @@ en:
 #       class_name: "Class Name"
 #       path_whitelist: "Path Whitelist"
 #       edit: "edit"
-        category: "Post to Category"
+        category: "Post to Track"
 #       add_host: "Add Host"
 #       settings: "Embedding Settings"
 #       feed_settings: "Feed Settings"
@@ -3927,8 +3927,8 @@ en:
 #       topic_title: "Topic"
 #       post_id: "Post ID"
 #       post_title: "Post"
-        category_id: "Category ID"
-        category_title: "Category"
+        category_id: "Track ID"
+        category_title: "Track"
 #       external_url: "External URL"
 #       delete_confirm: Are you sure you want to delete this permalink?
 #       form:
