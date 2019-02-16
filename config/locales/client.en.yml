@@ -1,3 +1,164 @@
 en:
   js:
     edit: "edit the title and track of this topic"
+    categories:
+      all: "all tracks"
+      all_subcategories: "all"
+      no_subcategory: "none"
+      category: "Track"
+      category_list: "Display track list"
+      reorder:
+        title: "Reorder Tracks"
+        title_long: "Reorganize the track list"
+      subcategories: "Subtracks"
+      n_more: "Tracks (%{count} more) ..."
+    user:
+      mailing_list_mode:
+        instructions: |
+          This setting overrides the activity summary.<br />
+          Muted topics and categories are not included in these emails.
+      watched_categories: "Watched"
+      watched_categories_instructions: "You will automatically watch all topics in these tracks. You will be notified of all new posts and topics, and a count of new posts will also appear next to the topic."
+      tracked_categories: "Tracked"
+      tracked_categories_instructions: "You will automatically track all topics in these tracks. A count of new posts will appear next to the topic."
+      watched_first_post_categories: "Watching First Post"
+      watched_first_post_categories_instructions: "You will be notified of the first post in each new topic in these tracks."
+      muted_categories: "Muted"
+      muted_categories_instructions: "You will not be notified of anything about new topics in these categories, and they will not appear on the tracks or latest pages."
+      no_category_access: "As a moderator you have limited track access, save is disabled."
+      preferences_nav:
+        categories: "Tracks"
+      categories_settings: "Tracks"
+      summary:
+        top_categories: "Top Tracks"
+    category_page_style:
+      categories_only: "Tracks Only"
+      categories_with_featured_topics: "Tracks with Featured Topics"
+      categories_and_latest_topics: "Tracks and Latest Topics"
+      categories_and_top_topics: "Tracks and Top Topics"
+      categories_boxes: "Boxes with Subtracks"
+      categories_boxes_with_topics: "Boxes with Featured Topics"
+    shared_drafts:
+      notice: "This topic is only visible to those who can see the <b>{{category}}</b> track."
+      destination_category: "Destination Track"
+    composer:
+      cannot_see_mention:
+        category: "You mentioned {{username}} but they won't be notified because they do not have access to this track. You will need to add them to a group that has access to this track."
+      error:
+        category_missing: "You must choose a track"
+      reply_placeholder_choose_category: "You must select a track before typing here."
+    search:
+      title: "search topics, posts, users, or tracks"
+      context:
+        category: "Search the {{category}} track"
+      advanced:
+        in_category:
+          label: Categorized
+    hamburger_menu: "go to another topic list or track"
+    topics:
+      bulk:
+        change_category: "Set Track"
+        choose_new_category: "Choose the new track for the topics:"
+    topic:
+      read_more_in_category: "Want to read more? Browse other topics in {{catLink}} or {{latestLink}}."
+      browse_all_categories: Browse all tracks
+      notifications:
+        reasons:
+          "3_6": "You will receive notifications because you are watching this track."
+          "2_8": "You will see a count of new replies because you are tracking this track."
+          "0_7": "You are ignoring all notifications in this track."
+        tracking_pm:
+          description: "You will be notified if someone mentions your @name or replies to you. A count of new replies will be shown for this message."
+        tracking:
+          description: "You will be notified if someone mentions your @name or replies to you. A count of new replies will be shown for this topic."
+      feature_topic:
+        pin: "Make this topic appear at the top of the {{categoryLink}} track until"
+        confirm_pin: "You already have {{count}} pinned topics. Too many pinned topics may be a burden for new and anonymous users. Are you sure you want to pin another topic in this track?"
+        unpin: "Remove this topic from the top of the {{categoryLink}} track."
+        unpin_until: "Remove this topic from the top of the {{categoryLink}} track or wait until <strong>%{until}</strong>."
+    category:
+      none: "(no track)"
+      all: "All tracks"
+      choose: "track&hellip;"
+      view: "View Topics in Track"
+      tags_allowed_tags: "Only allow these tags to be used in this track:"
+      tags_allowed_tag_groups: "Only allow tags from these groups to be used in this track:"
+      topic_featured_link_allowed: "Allow featured links in this track"
+      delete: "Delete Track"
+      create: "New Track"
+      create_long: "Create a new track"
+      save: "Save Track"
+      slug: "Track Slug"
+      creation_error: There has been an error during the creation of the track.
+      save_error: There was an error saving the track.
+      name: "Track Name"
+      topic: "track topic"
+      logo: "Track Logo Image"
+      background_image: "Track Background Image"
+      delete_confirm: "Are you sure you want to delete this track?"
+      delete_error: "There was an error deleting the track."
+      list: "List Tracks"
+      no_description: "Please add a description for this track."
+      change_in_category_topic: "Edit Description"
+      already_used: "This color has been used by another track"
+      special_warning: "Warning: This track is a pre-seeded track and the security settings cannot be edited. If you do not wish to use this track, delete it instead of repurposing it."
+      mailinglist_mirror: "Track mirrors a mailing list"
+      suppress_from_latest: "Suppress track from latest topics."
+      show_subcategory_list: "Show subtrack list above topics in this track."
+      num_featured_topics: "Number of topics shown on the tracks page:"
+      subcategory_num_featured_topics: "Number of featured topics on parent track's page:"
+      subcategory_list_style: "Subtrack List Style:"
+      allow_badges_label: "Allow badges to be awarded in this track"
+      position_disabled: "Tracks will be displayed in order of activity. To control the order of tracks in lists, "
+      position_disabled_click: 'enable the "fixed track positions" setting.'
+      parent: "Parent Track"
+      notifications:
+        watching:
+          description: "You will automatically watch all topics in this track. You will be notified of every new post in every topic, and a count of new replies will be shown."
+        watching_first_post:
+          description: "You will be notified of new topics in this track but not replies to the topics."
+        tracking:
+          description: "You will automatically track all topics in this track. You will be notified if someone mentions your @name or replies to you, and a count of new replies will be shown."
+        muted:
+          description: "You will never be notified of anything about new topics in this track, and they will not appear in latest."
+      sort_options:
+        category: "Track"
+    topic_statuses:
+      pinned_globally:
+        help: "This topic is pinned globally; it will display at the top of latest and its track"
+      pinned:
+        help: "This topic is pinned for you; it will display at the top of its track"
+    category_title: "Track"
+    categories_list: "Tracks List"
+    filters:
+      categories:
+        title: "Tracks"
+        title_in: "Track - {{categoryName}}"
+        help: "all topics grouped by track"
+      category:
+        help: "latest topics in the {{categoryName}} track"
+    keyboard_shortcuts_help:
+      jump_to:
+        categories: "<b>g</b>, <b>c</b> Tracks"
+  admin_js:
+    admin:
+      web_hooks:
+        categories_filter_instructions: "Relevant webhooks will only be triggered if the event is related with specified categories. Leave blank to trigger webhooks for all tracks."
+        categories_filter: "Triggered Tracks"
+        category_event:
+          name: "Track Event"
+          details: "When a track is created, updated or destroyed."
+      logs:
+        category_id: "Track ID"
+        staff_actions:
+          actions:
+            change_category_settings: "change track settings"
+            delete_category: "delete track"
+            create_category: "create track"
+      site_settings:
+        more_than_30_results: "There are more than 30 results. Please refine your search or select a track."
+      embedding:
+        category: "Post to Track"
+      permalink:
+        category_id: "Track ID"
+        category_title: "Track"
